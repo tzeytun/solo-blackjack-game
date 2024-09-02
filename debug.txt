@@ -1,9 +1,0 @@
-Debug :
-
-[X] Site açıldığında "Start Game" butonuna tıklamadan "New Card" butonuna tıkladığımızda "You need to start the game before drawing a card." yazması gerekli.
-
-[X] Blackjack olduğunda +100 chip kazanması gerekli.
-
-[X] Bakiye 0'a eşit olduğunda "You haven't enough money to play!" uyarısı vermesi gerekli.
-
-[X] Tasarımda düzenlemelerin yapılması gerekli.
