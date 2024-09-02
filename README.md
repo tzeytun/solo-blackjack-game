@@ -6,7 +6,7 @@ Blackjack is a popular card game typically played in casinos, where players aim 
 
 This game is usually played against a dealer, but in this project, you'll need to play on your own :)
 
-## Highlights:
+## Highlights
 
 Card Values: Number cards are worth their face value, face cards are worth 10, and Aces can be worth either 1 or 11. But in my game, Aces count as 11 :) 
 
