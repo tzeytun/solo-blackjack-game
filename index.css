@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url('images/background/background.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    
+    color: goldenrod;
+}
+
+#message-el {
+    color: #f6ff00;
+    
+    font-style: italic;
+}
+
+#error-el {
+    color: rgb(249, 0, 0);
+}
+
+#chip10-el:hover, #chip50-el:hover, #chip100-el:hover {
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+
+#button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+#start-btn, #newcard-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    width: 150px; 
+    height: 50px; 
+    position: relative;
+    text-align: center;
+}
+
+#start-btn {
+    background: linear-gradient(to bottom, #007BFF, #0056b3); 
+    border: 3px solid #004085; 
+}
+
+#newcard-btn {
+    background: linear-gradient(to bottom, #4caf50, #388e3c); 
+    border: 3px solid #2e7d32; 
+}
+
+#start-btn img, #newcard-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#start-btn:hover, #newcard-btn:hover {
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+#start-btn span, #newcard-btn span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+#player-el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4e3b2a; 
+    color: white;
+    font-weight: bold;
+    border-radius: 10px; 
+    padding: 5px 15px;
+    border: 3px solid #c2a262; 
+    font-size: 20px;
+    box-shadow: 0px 0px 5px #c2a262;
+    position: relative;
+    margin-top: 20px;
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#chip10-el {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: white;
+    background-image: url('images/chips/chip10.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    border: none;
+    cursor: pointer;
+}
+
+#chip50-el {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: white;
+    background-image: url('images/chips/chip50.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    border: none;
+    cursor: pointer;
+}
+
+#chip100-el {
+    font-family: "Montserrat", sans-serif;
+    font-style: bold;
+    color: white;
+    background-image: url('images/chips/chip100.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    border: none;
+    cursor: pointer;
+}
+
+#profit-el {
+
+    color: greenyellow;
+}
+
+#loss-el{
+
+    color: red;
+
+}
+
+.card-img {
+    width: 50px;
+    height: auto;
+    margin: 5px;
+}

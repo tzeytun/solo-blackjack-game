@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Solo Blackjack</h1>
+        <p id="message-el">Want to play a round?</p>
+        <p id="cards-el"></p>
+        <p id="sum-el"></p>
+        <div id="button-container">
+        <button id="start-btn" onclick="startGame()">
+            <img src="images/icons/start.svg" class="btn-icon">
+            <span>Start Game</span>
+        </button>
+        <button id="newcard-btn" onclick="newCard()">
+            <img src="images/icons/newcard.svg" class="btn-icon">
+            <span>New Card</span>
+        </button>
+    </div> <br>
+        <button id="chip10-el">10</button>
+        <button id="chip50-el">50</button>
+        <button id="chip100-el">100</button>
+        <p id="error-el"></p>
+        <p id="player-el"></p>
+        <p id="profit-el"></p>
+        <p id="loss-el"></p>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
