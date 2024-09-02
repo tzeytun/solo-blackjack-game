@@ -14,7 +14,7 @@ Bust: If a player's hand exceeds 21, they lose the round, known as "busting."
 
 ## Process
 
-1. When you enter the site, you'll be asked to enter a name. This is entirely optional. If you choose to enter your name, it will appear alongside your balance in the balance section."
+1. When you enter the site, you'll be asked to enter a name. This is entirely optional. If you choose to enter your name, it will appear alongside your balance in the balance section.
 
 2. I've set up 3 chips, which represent your bet amount. Before starting the game, you'll need to choose one of these chips. Once you've made your selection, you can begin the game.
 
